@@ -18,9 +18,9 @@ export class Hello extends React.PureComponent<IProps, { showInstallMessage: boo
         }
     }
     componentDidMount() {
-        // whole componentDidMount body servers the purpose
-        // to display popup message in iOS which support for PWA
-        // is worse than bad
+        // whole componentDidMount body serves the purpose
+        // of checking if popup message to add homeScreen button ***on iOS*** should be displayed
+        // iOS support for PWA is worse than bad, hence we need to hack it
         // read more here:
         // https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native
         // beware, that popup itself is NOT implemented in this boilerplate app.
@@ -43,9 +43,9 @@ export class Hello extends React.PureComponent<IProps, { showInstallMessage: boo
 
         return <React.Fragment>
             <h1 className={styles.hello}>
-                Hello, this is your awesome boilerplate! A {this.props.framework} 
-                application using {this.props.compiler} 
-                with {this.props.bundler}
+                Hello, this is your awesome boilerplate! A {` ${this.props.framework}`}
+                application using {` ${this.props.compiler}`}
+                with {` ${this.props.bundler}`}
             </h1>
             <div>
             { 
