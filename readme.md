@@ -44,7 +44,7 @@ In case I missed something, or you have found any issues, please post them in gi
 
 2.
 
-Run `npm install` from project root.
+Run `yarn` if you have yarn installed globally. If not, run `npm install yarn -g` and than run `yarn` from project root.
 
 3. 
 
