@@ -35,7 +35,7 @@ Output of above command will most probably be:
 - src/app/public/manifest.json
 - src/app/public/service-worker.js
 
-open files listed and provide all the values needed. 
+open files listed and provide all the values needed, by searching for "$PROJECT_CONFIG" (in file) and replacing it with necessary info.
 
 Values you need to provide are pretty straightforward and I've inserted some explanation here and there but you do need a bit of knowledge about each of tools you are going to use, to get started. 
 In case of lack of knowledge just head to webpage of each tool you find hard to configure and read docs about configuration. 
