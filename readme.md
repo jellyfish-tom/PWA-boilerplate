@@ -8,7 +8,7 @@ Findable here: https://www.linkedin.com/in/tomasz-morawski-15118760/
 ### Pieces:
 - Babel - https://babeljs.io/
 - Typescript - https://www.typescriptlang.org/
-- Webpack - https://webpack.js.org/
+- Webpack - https://webpack.js.org/ (with hot reload, so when you edit file, browser reloads automatically)
 - Node - https://nodejs.org/en/
 - Express - https://expressjs.com/
 - Firebase - https://firebase.google.com/
@@ -16,6 +16,7 @@ Findable here: https://www.linkedin.com/in/tomasz-morawski-15118760/
 - ReactRouter - https://github.com/ReactTraining/react-router
 - Mobx (state manager) - https://github.com/mobxjs/mobx
 - AntDesign (predefined UI components) - https://ant.design/
+- TypeStyle (for typesafe CSS) - https://github.com/typestyle/typestyle
 - Jest (test library) - https://jestjs.io/
 - Storybook (interactive UI dev. env.) - https://github.com/storybooks/storybook
 - tslint (linter for typescript) - https://palantir.github.io/tslint/
