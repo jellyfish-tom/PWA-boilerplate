@@ -1,0 +1,17 @@
+{
+    "short_name": "$PROJECT_CONFIG-Boilerplate name",
+    "name": "$PROJECT_CONFIG-Another boilerplate, but better!",
+    "scope": ".",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src":"img/icons/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+}

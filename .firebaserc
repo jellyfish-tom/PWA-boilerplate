@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "$PROJECT_CONFIG-PROVIDE_FIREBASE_PROJECT_NAME_HERE"
+  }
+}
