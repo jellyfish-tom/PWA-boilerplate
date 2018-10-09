@@ -23,7 +23,9 @@ Findable here: https://www.linkedin.com/in/tomasz-morawski-15118760/
 
 ### Installation:
 
-To configure it, just search for `PROJECT_CONFIG` to get list of all files you need to configure to actually get the project running (run bellow command in console from project dir level). 
+1. 
+
+To configure it, just search for `PROJECT_CONFIG` to get list of all files you need to configure to actually get the project running (run bellow command in console from project root dir level). 
 
 - `grep -lr "PROJECT_CONFIG" * --exclude=\readme.md`
 
@@ -33,8 +35,6 @@ Output of above command will most probably be:
 - src/app/public/manifest.json
 - src/app/public/service-worker.js
 
-You can of course ommit readme.md
-
 open files listed and provide all the values needed. 
 
 Values you need to provide are pretty straightforward and I've inserted some explanation here and there but you do need a bit of knowledge about each of tools you are going to use, to get started. 
@@ -42,9 +42,15 @@ In case of lack of knowledge just head to webpage of each tool you find hard to 
 As they may change in time, providing explanations here seems out of point.
 In case I missed something, or you have found any issues, please post them in github `issue` seccion.
 
-After providing all needed values, run `npm install` in console from `./functions` directory to install all dependencies for firebase functions.
+2.
 
-After all that you will be able to run below command from base project dir:
+Run `npm install` from project root.
+
+3. 
+
+Run `npm install` in console from `./functions` directory to install all dependencies for firebase functions.
+
+After all that you will be able to run below commands from base project dir:
 
 - `yarn start` - to start the project (under localhost:3000) with storybook (under localhost:9001) concurrently
 - `yarn build` - to just build the project for production, without actually runnning it locally
@@ -52,7 +58,7 @@ After all that you will be able to run below command from base project dir:
 - `yarn precommit or prepush` - I've provided those so you can add your githooks
 - `yarn test` - to run JEST
 
-To check other scripts used in process, just check `package.json` scripts section.
+To check other scripts you may use (or are used by above scripts), just check `package.json` scripts section.
 
 Thanks and have fun coding! :) 
 
