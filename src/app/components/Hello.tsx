@@ -43,9 +43,9 @@ export class Hello extends React.PureComponent<IProps, { showInstallMessage: boo
 
         return <React.Fragment>
             <h1 className={styles.hello}>
-                Hello, this is your awesome boilerplate! A {` ${this.props.framework}`}
-                application using {` ${this.props.compiler}`}
-                with {` ${this.props.bundler}`}
+                Hello, this is your awesome boilerplate! A {` ${this.props.framework} `}
+                application using {` ${this.props.compiler} `}
+                with {` ${this.props.bundler} `}
             </h1>
             <div>
             { 
