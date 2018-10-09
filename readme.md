@@ -40,7 +40,7 @@ open files listed and provide all the values needed, by searching for "$PROJECT_
 Values you need to provide are pretty straightforward and I've inserted some explanation here and there but you do need a bit of knowledge about each of tools you are going to use, to get started. 
 In case of lack of knowledge just head to webpage of each tool you find hard to configure and read docs about configuration. 
 As they may change in time, providing explanations here seems out of point.
-In case I missed something, or you have found any issues, please post them in github `issue` seccion.
+In case I missed something, or you have found any issues, please post them in github `issue` section.
 
 2.
 
