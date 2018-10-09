@@ -18,7 +18,7 @@ Findable here: https://www.linkedin.com/in/tomasz-morawski-15118760/
 - AntDesign (predefined UI components) - https://ant.design/
 - TypeStyle (for typesafe CSS) - https://github.com/typestyle/typestyle
 - Jest (test library) - https://jestjs.io/
-- Storybook (interactive UI dev. env.) - https://github.com/storybooks/storybook
+- Storybook (interactive, isolated UI development enviroment) - https://github.com/storybooks/storybook
 - tslint (linter for typescript) - https://palantir.github.io/tslint/
 - yarn (dependency management) - https://yarnpkg.com/en/
 
